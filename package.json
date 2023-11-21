@@ -1,0 +1,12 @@
+{
+    "name": "sun-street.github.io",
+    "version": "1.0.0",
+    "scripts" : 
+    {
+        "runScript" : "node Services/number-service.js"
+    },
+    "dependencies": 
+    {
+        "express": "^4.17.1"
+    }
+}

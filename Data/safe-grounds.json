@@ -1,0 +1,400 @@
+{
+	"groundsList": [
+		{
+			"type": 0,
+			"number": "Председатель",
+			"name": "Артём",
+			"phoneNumbers": [
+				{
+					"cellNumber": "4",
+					"number": "+7-952-***-10-93"
+				}
+			],
+			"mod2022_05": 0
+		},
+		{
+			"type": 1,
+			"number": "377",
+			"name": "Михаил Викторович",
+			"phoneNumbers": [
+				{
+					"cellNumber": "5",
+					"number": "+7-913-***-37-36"
+				},
+				{
+					"cellNumber": "6",
+					"number": "+7-952-***-26-34"
+				},
+				{
+					"cellNumber": "7",
+					"number": "+7-913-***-15-52"
+				},
+				{
+					"cellNumber": "8",
+					"number": "+7-960-***-86-90"
+				},
+				{
+					"cellNumber": "9",
+					"number": "+7-913-***-01-71"
+				}
+			],
+			"mod2022_05": 1000
+		},
+		{
+			"type": 1,
+			"number": "378",
+			"name": "",
+			"phoneNumbers": [
+				{
+					"cellNumber": "10-14",
+					"number": ""
+				}
+			],
+			"mod2022_05": 0
+		},
+		{
+			"type": 1,
+			"number": "379",
+			"name": "Михаил Евгеньевич",
+			"phoneNumbers": [
+				{
+					"cellNumber": "15",
+					"number": "+7-913-***-60-82"
+				},
+				{
+					"cellNumber": "16",
+					"number": "+7-913-***-56-84"
+				},
+				{
+					"cellNumber": "17",
+					"number": "+7-913-***-35-12"
+				},
+				{
+					"cellNumber": "18",
+					"number": "+7-913-***-51-33"
+				},
+				{
+					"cellNumber": "19",
+					"number": "+7-913-***-72-44"
+				}
+			],
+			"mod2022_05": 1000
+		},
+		{
+			"type": 1,
+			"number": "380",
+			"name": "Ольга Аркадьевна",
+			"phoneNumbers": [
+				{
+					"cellNumber": "20",
+					"number": "+7-913-***-98-27"
+				},
+				{
+					"cellNumber": "21",
+					"number": "+7-923-***-29-05"
+				}
+			],
+			"mod2022_05": 1000
+		},
+		{
+			"type": 1,
+			"number": "381",
+			"name": "",
+			"phoneNumbers": [
+				{
+					"cellNumber": "25-29",
+					"number": ""
+				}
+			],
+			"mod2022_05": 0
+		},
+		{
+			"type": 1,
+			"number": "382",
+			"name": "Александр Вячеславович",
+			"phoneNumbers": [
+				{
+					"cellNumber": "30",
+					"number": "+7-913-***-67-32"
+				},
+				{
+					"cellNumber": "31",
+					"number": "+7-913-***-67-32"
+				},
+				{
+					"cellNumber": "32",
+					"number": "+7-913-***-65-53"
+				},
+				{
+					"cellNumber": "33",
+					"number": "+7-913-***-09-73"
+				},
+				{
+					"cellNumber": "34",
+					"number": "+7-913-***-90-89"
+				}
+			],
+			"mod2022_05": 1000
+		},
+		{
+			"type": 1,
+			"number": "383",
+			"name": "Илья Александрович",
+			"phoneNumbers": [
+				{
+					"cellNumber": "35",
+					"number": "+7-923-***-03-05"
+				},
+				{
+					"cellNumber": "36",
+					"number": "+7-953-***-58-57"
+				}
+			],
+			"mod2022_05": 1000
+		},
+		{
+			"type": 1,
+			"number": "384/385",
+			"name": "Валентина Александровна",
+			"phoneNumbers": [
+				{
+					"cellNumber": "40",
+					"number": "+7-913-***-81-93"
+				},
+				{
+					"cellNumber": "41",
+					"number": "+7-913-***-15-61"
+				}
+			],
+			"mod2022_05": 1000
+		},
+		{
+			"type": 1,
+			"number": "386/388",
+			"name": "Олег Николаевич",
+			"phoneNumbers": [
+				{
+					"cellNumber": "45",
+					"number": "+7-953-***-77-55"
+				},
+				{
+					"cellNumber": "46",
+					"number": "+7-913-***-61-91"
+				},
+				{
+					"cellNumber": "47",
+					"number": "+7-913-***-44-03"
+				}
+			],
+			"mod2022_05": 1000
+		},
+		{
+			"type": 1,
+			"number": "387",
+			"name": "Екатерина Александровна",
+			"phoneNumbers": [
+				{
+					"cellNumber": "50",
+					"number": "+7-961-***-98-88"
+				}
+			],
+			"mod2022_05": 1000
+		},
+		{
+			"type": 1,
+			"number": "389",
+			"name": "Вадим Анатольевич",
+			"phoneNumbers": [
+				{
+					"cellNumber": "55",
+					"number": "+7-913-***-25-04"
+				},
+				{
+					"cellNumber": "56",
+					"number": "+7-913-***-40-61"
+				},
+				{
+					"cellNumber": "57",
+					"number": "+7-999-***-90-03"
+				},
+				{
+					"cellNumber": "58",
+					"number": "+7-913-***-06-27"
+				},
+				{
+					"cellNumber": "59",
+					"number": "+7-913-***-86-09"
+				}
+			],
+			"mod2022_05": 1000
+		},
+		{
+			"type": 1,
+			"number": "390/391",
+			"name": "Денис Константинович",
+			"phoneNumbers": [
+				{
+					"cellNumber": "60",
+					"number": "+7-953-***-79-15"
+				},
+				{
+					"cellNumber": "61",
+					"number": "+7-953-***-99-91"
+				},
+				{
+					"cellNumber": "62",
+					"number": "+7-953-***-65-81"
+				}
+			],
+			"mod2022_05": 1000
+		},
+		{
+			"type": 1,
+			"number": "392",
+			"name": "",
+			"phoneNumbers": [
+				{
+					"cellNumber": "65-69",
+					"number": ""
+				}
+			],
+			"mod2022_05": 0
+		},
+		{
+			"type": 1,
+			"number": "393",
+			"name": "Сергей Михайлович",
+			"phoneNumbers": [
+				{
+					"cellNumber": "70",
+					"number": "+7-905-***-72-69"
+				},
+				{
+					"cellNumber": "71",
+					"number": "+7-999-***-23-83"
+				},
+				{
+					"cellNumber": "72",
+					"number": "+7-913-***-91-19"
+				},
+				{
+					"cellNumber": "73",
+					"number": "+7-999-***-48-18"
+				},
+				{
+					"cellNumber": "74",
+					"number": "+7-996-***-85-37"
+				}
+			],
+			"mod2022_05": 1000
+		},
+		{
+			"type": 1,
+			"number": "394",
+			"name": "Валентина Михайловна",
+			"phoneNumbers": [
+				{
+					"cellNumber": "75",
+					"number": "+7-913-***-34-43"
+				},
+				{
+					"cellNumber": "76",
+					"number": "+7-905-***-79-40"
+				},
+				{
+					"cellNumber": "77",
+					"number": "+7-961-***-33-48"
+				}
+			],
+			"mod2022_05": 1000
+		},
+		{
+			"type": 1,
+			"number": "395",
+			"name": "Сергей Петрович",
+			"phoneNumbers": [
+				{
+					"cellNumber": "80",
+					"number": "+7-913-***-83-63"
+				},
+				{
+					"cellNumber": "81",
+					"number": "+7-923-***-00-63"
+				},
+				{
+					"cellNumber": "82",
+					"number": "+7-913-***-81-50"
+				},
+				{
+					"cellNumber": "83",
+					"number": "+7-999-***-22-40"
+				},
+				{
+					"cellNumber": "84",
+					"number": "+7-905-***-02-69"
+				}
+			],
+			"mod2022_05": 1000
+		},
+		{
+			"type": 1,
+			"number": "396",
+			"name": "Анна",
+			"phoneNumbers": [
+				{
+					"cellNumber": "85",
+					"number": "+7-953-***-75-48"
+				},
+				{
+					"cellNumber": "86",
+					"number": "+7-953-***-68-15"
+				},
+				{
+					"cellNumber": "87",
+					"number": "+7-913-***-92-04"
+				},
+				{
+					"cellNumber": "88",
+					"number": "+7-923-***-44-50"
+				},
+				{
+					"cellNumber": "89",
+					"number": "+7-951-***-12-42"
+				}
+			],
+			"mod2022_05": 1000
+		},
+		{
+			"type": 1,
+			"number": "397",
+			"name": "Галина Михайловна",
+			"phoneNumbers": [
+				{
+					"cellNumber": "90",
+					"number": "+7-924-***-89-50"
+				},
+				{
+					"cellNumber": "91",
+					"number": "+7-924-***-47-24"
+				}
+			],
+			"mod2022_05": 1000
+		},
+		{
+			"type": 1,
+			"number": "398",
+			"name": "Максим Николаевич",
+			"phoneNumbers": [
+				{
+					"cellNumber": "95",
+					"number": "+7-913-***-34-79"
+				},
+				{
+					"cellNumber": "96",
+					"number": "+7-913-***-25-24"
+				}
+			],
+			"mod2022_05": 1000
+		}
+	]
+}
