@@ -50,7 +50,7 @@ function fillTable(groundName)
     {
         if (groundName == "Все участки" || groundName == jsonObject.groundsList[i].number)
         {
-            var modStyle = "";
+            var modStyle0 = "";
 
             if (jsonObject.groundsList[i].type === 1)
             {
@@ -58,16 +58,16 @@ function fillTable(groundName)
 
                 if (jsonObject.groundsList[i].road2020 > 0 && jsonObject.groundsList[i].mod2022_05 > 0 && jsonObject.groundsList[i].mod2024_05 > 0) 
                 {
-                    modStyle = ' style="color:green;"';
+                    modStyle0 = ' style="color:green;"';
                     realDelegatesCount++;
                 }
                 else if (jsonObject.groundsList[i].road2020 > 0 || jsonObject.groundsList[i].mod2022_05 > 0 || jsonObject.groundsList[i].mod2024_05 > 0)
                 {
-                    modStyle = ' style="color:orange;"';
+                    modStyle0 = ' style="color:orange;"';
                 }
                 else
                 {
-                    modStyle = ' style="color:red;"';
+                    modStyle0 = ' style="color:red;"';
                 }
                 
                 if (jsonObject.groundsList[i].phoneNumbers[0].number.length > 0) 
@@ -83,7 +83,7 @@ function fillTable(groundName)
             innerHtml += "<tr>"
 
             innerHtml += "<td>" + (i+1) + "</td>";
-            innerHtml += "<td" + modStyle + ">" + bS + jsonObject.groundsList[i].number + bE + "</td>";
+            innerHtml += "<td" + modStyle0 + ">" + bS + jsonObject.groundsList[i].number + bE + "</td>";
             innerHtml += "<td>" + jsonObject.groundsList[i].name + "</td>";
 
             innerHtml += "<td>"
@@ -147,5 +147,5 @@ function setColumnWithColor(count)
         
     }
 
-    return "<td" + modStyle + ">" + bS + count + bE + "</td>";
-}
+    return "<td" + modStyle + ">" + "<b>" + count + "</b>" + "</td>";
+};
