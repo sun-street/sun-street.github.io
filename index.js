@@ -61,10 +61,13 @@ function fillTable(groundName)
                     modStyle = ' style="color:green;"';
                     realDelegatesCount++;
                 }
-                else 
+                else if (jsonObject.groundsList[i].road2020 > 0 || jsonObject.groundsList[i].mod2022_05 > 0 || jsonObject.groundsList[i].mod2024_05 > 0)
+                {
+                    modStyle = ' style="color:orange;"';
+                }
+                else
                 {
                     modStyle = ' style="color:red;"';
-                    
                 }
                 
                 if (jsonObject.groundsList[i].phoneNumbers[0].number.length > 0) 
@@ -132,6 +135,8 @@ function fillTableColumn(columnContent, newLineRequired)
 
 function setColumnWithColor(count)
 {
+    var modStyle = "";
+
     if (count > 0) 
     {
         modStyle = ' style="color:green;"';
