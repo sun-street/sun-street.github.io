@@ -56,7 +56,7 @@ function fillTable(groundName)
             {
                 delegatesCount++;
 
-                if (jsonObject.groundsList[i].mod2022_05 > 0) 
+                if (jsonObject.groundsList[i].road2020 > 0 && jsonObject.groundsList[i].mod2022_05 > 0 && jsonObject.groundsList[i].mod2024_05 > 0) 
                 {
                     modStyle = ' style="color:green;"';
                     realDelegatesCount++;
@@ -103,9 +103,9 @@ function fillTable(groundName)
                 }
             }
 
-            innerHtml += "<td" + modStyle + ">" + bS + jsonObject.groundsList[i].road2020 + bE + "</td>";
-            innerHtml += "<td" + modStyle + ">" + bS + jsonObject.groundsList[i].mod2022_05 + bE + "</td>";
-            innerHtml += "<td" + modStyle + ">" + bS + jsonObject.groundsList[i].mod2024_05 + bE + "</td>";
+            innerHtml += setColumnWithColor(jsonObject.groundsList[i].road2020);
+            innerHtml += setColumnWithColor(jsonObject.groundsList[i].mod2022_05);
+            innerHtml += setColumnWithColor(jsonObject.groundsList[i].mod2024_05);
 
             innerHtml += "</td>"
             innerHtml += "</tr>";
@@ -129,3 +129,18 @@ function fillTableColumn(columnContent, newLineRequired)
 
     return result;
 };
+
+function setColumnWithColor(count)
+{
+    if (count > 0) 
+    {
+        modStyle = ' style="color:green;"';
+    }
+    else 
+    {
+        modStyle = ' style="color:red;"';
+        
+    }
+
+    return "<td" + modStyle + ">" + bS + count + bE + "</td>";
+}
