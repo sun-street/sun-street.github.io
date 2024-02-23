@@ -103,7 +103,9 @@ function fillTable(groundName)
                 }
             }
 
+            innerHtml += "<td" + modStyle + ">" + bS + jsonObject.groundsList[i].road2020 + bE + "</td>";
             innerHtml += "<td" + modStyle + ">" + bS + jsonObject.groundsList[i].mod2022_05 + bE + "</td>";
+            innerHtml += "<td" + modStyle + ">" + bS + jsonObject.groundsList[i].mod2024_05 + bE + "</td>";
 
             innerHtml += "</td>"
             innerHtml += "</tr>";
