@@ -63,7 +63,7 @@ function fillTable(groundName)
                 }
                 else if (jsonObject.groundsList[i].road2020 > 0 || jsonObject.groundsList[i].mod2022_05 > 0 || jsonObject.groundsList[i].mod2024_05 > 0)
                 {
-                    modStyle0 = ' style="color:yellow;"';
+                    modStyle0 = ' style="color:darkorange;"';
                 }
                 else
                 {
