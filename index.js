@@ -106,9 +106,9 @@ function fillTable(groundName)
                 }
             }
 
-            innerHtml += setColumnWithColor(jsonObject.groundsList[i].road2020);
-            innerHtml += setColumnWithColor(jsonObject.groundsList[i].mod2022_05);
-            innerHtml += setColumnWithColor(jsonObject.groundsList[i].mod2024_05);
+            innerHtml += setColumnWithColor(jsonObject.groundsList[i].road2020, jsonObject.groundsList[i].type);
+            innerHtml += setColumnWithColor(jsonObject.groundsList[i].mod2022_05, jsonObject.groundsList[i].type);
+            innerHtml += setColumnWithColor(jsonObject.groundsList[i].mod2024_05, jsonObject.groundsList[i].type);
 
             innerHtml += "</td>"
             innerHtml += "</tr>";
@@ -133,18 +133,21 @@ function fillTableColumn(columnContent, newLineRequired)
     return result;
 };
 
-function setColumnWithColor(count)
+function setColumnWithColor(count, type)
 {
     var modStyle = "";
 
-    if (count > 0) 
+    if (type === 1)
     {
-        modStyle = ' style="color:green;"';
-    }
-    else 
-    {
-        modStyle = ' style="color:red;"';
-        
+        if (count > 0) 
+        {
+            modStyle = ' style="color:green;"';
+        }
+        else 
+        {
+            modStyle = ' style="color:red;"';
+            
+        }
     }
 
     return "<td" + modStyle + ">" + "<b>" + count + "</b>" + "</td>";
