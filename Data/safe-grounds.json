@@ -3,11 +3,11 @@
 		{
 			"type": 0,
 			"number": "-",
-			"name": "Артём Михайлович",
+			"name": "Председатель",
 			"phoneNumbers": [
 				{
 					"cellNumber": "4",
-					"number": "+7-952-***-10-93"
+					"number": ""
 				}
 			],
 			"road2020": "-",
@@ -153,15 +153,11 @@
 		{
 			"type": 1,
 			"number": "383",
-			"name": "Илья Александрович",
+			"name": "Денис",
 			"phoneNumbers": [
 				{
 					"cellNumber": "35",
-					"number": "+7-923-***-03-05"
-				},
-				{
-					"cellNumber": "36",
-					"number": "+7-953-***-58-57"
+					"number": ""
 				}
 			],
 			"road2020": 2000,
