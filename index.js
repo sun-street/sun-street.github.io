@@ -56,12 +56,18 @@ function fillTable(groundName)
             {
                 delegatesCount++;
 
-                if (jsonObject.groundsList[i].road2020 > 0 && jsonObject.groundsList[i].mod2022_05 > 0 && jsonObject.groundsList[i].mod2024_05 > 0) 
+                if (jsonObject.groundsList[i].road2020 > 0 && 
+                    jsonObject.groundsList[i].mod2022_05 > 0 && 
+                    jsonObject.groundsList[i].mod2024_05 > 0 &&
+                    jsonObject.groundsList[i].mod2026 > 0) 
                 {
                     modStyle0 = ' style="color:green;"';
                     realDelegatesCount++;
                 }
-                else if (jsonObject.groundsList[i].road2020 > 0 || jsonObject.groundsList[i].mod2022_05 > 0 || jsonObject.groundsList[i].mod2024_05 > 0)
+                else if (jsonObject.groundsList[i].road2020 > 0 || 
+                    jsonObject.groundsList[i].mod2022_05 > 0 || 
+                    jsonObject.groundsList[i].mod2024_05 > 0 ||
+                    jsonObject.groundsList[i].mod2026 > 0)
                 {
                     modStyle0 = ' style="color:gold;"';
                 }
@@ -109,6 +115,7 @@ function fillTable(groundName)
             innerHtml += setColumnWithColor(jsonObject.groundsList[i].road2020, jsonObject.groundsList[i].type);
             innerHtml += setColumnWithColor(jsonObject.groundsList[i].mod2022_05, jsonObject.groundsList[i].type);
             innerHtml += setColumnWithColor(jsonObject.groundsList[i].mod2024_05, jsonObject.groundsList[i].type);
+            innerHtml += setColumnWithColor(jsonObject.groundsList[i].mod2026, jsonObject.groundsList[i].type);
 
             innerHtml += "</td>"
             innerHtml += "</tr>";
