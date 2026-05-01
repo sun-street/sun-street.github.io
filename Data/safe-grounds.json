@@ -393,24 +393,8 @@
 			"name": "Игорь",
 			"phoneNumbers": [
 				{
-					"cellNumber": "85",
-					"number": "+7-953-***-75-48"
-				},
-				{
-					"cellNumber": "86",
-					"number": "+7-953-***-68-15"
-				},
-				{
-					"cellNumber": "87",
-					"number": "+7-913-***-92-04"
-				},
-				{
 					"cellNumber": "88",
 					"number": "+7-923-***-44-50"
-				},
-				{
-					"cellNumber": "89",
-					"number": "+7-951-***-12-42"
 				}
 			],
 			"road2020": 2000,
